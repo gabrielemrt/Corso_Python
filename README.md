@@ -1,5 +1,6 @@
 # Corso Python
-corso python 2022-2023
+- corso python 2022-2023
 
 # Update
-ultimo aggiorenamento 30/11/2022
+- ultimo aggiorenamento 30/11/2022
+
