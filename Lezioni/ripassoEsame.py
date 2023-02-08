@@ -125,7 +125,7 @@ def scrivi_ping_sito(filename, site):
     subprocess.run(ping, shell=True)
 
 def traceroute_count(site):
-    traceroute=("traceroute " + site + "| wc -l")
+    traceroute=("traceroute " + site + " | grep -v 'traceroute' | wc -l")
     return subprocess.check_output(traceroute, shell=True).decode('utf-8')
 
 
